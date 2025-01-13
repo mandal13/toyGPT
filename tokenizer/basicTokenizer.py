@@ -1,5 +1,5 @@
-from baseTokenizer import BaseTokenizer
-from helper import getPairStats, merge
+from .baseTokenizer import BaseTokenizer
+from .helper import getPairStats, merge
 
 class BasicTokenizer(BaseTokenizer):
     """
