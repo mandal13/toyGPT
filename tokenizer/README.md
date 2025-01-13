@@ -3,9 +3,11 @@
 This folder contains a modular implementation of a tokenizer, inspired by Andrej Karpathy's lecture *"Let's build the GPT Tokenizer"* on YouTube.
 
 It provides tools to
-- train a tokenizer with the given text to build a vocabulary dictionary and merges dictionary
-- encode a given text to tokens
-- decode a given token lists to text
+- `train` a tokenizer with the given text to build a vocabulary dictionary and merges dictionary
+- `encode` a given text to tokens
+- `decode` a given token lists to text
+- `save` a tokenization model
+- `load` a tokenization model
 
 ## Files and Structure
 
